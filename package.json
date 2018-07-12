@@ -2,9 +2,11 @@
   "name": "tshop",
   "version": "1.0.0",
   "description": "## Installation",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/pochkuntaras/tshop/issues"
   },
-  "homepage": "https://github.com/pochkuntaras/tshop#readme"
+  "homepage": "https://github.com/pochkuntaras/tshop#readme",
+  "devDependencies": {
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  }
 }
