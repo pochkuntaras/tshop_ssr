@@ -1,5 +1,5 @@
-﻿import { sum, square } from './math';
+﻿import React from 'react';
+import ReactDOM from 'react-dom';
+import Hello from './Hello'
 
-var element = document.getElementById('root');
-
-element.innerHTML = `sum 3 + 5 = ${sum(3, 5)} and square of 2 = ${square(2)}`;
+ReactDOM.render(<Hello />, document.getElementById('root'));
