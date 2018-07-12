@@ -1,10 +1,5 @@
-﻿function component() {
-    var element = document.createElement('div');
+﻿import { sum, square } from './math';
 
-    element.innerHTML = 'Getting Started';
+var element = document.getElementById('root');
 
-    return element;
-  }
-  
-  document.body.appendChild(component());
-  
+element.innerHTML = `sum 3 + 5 = ${sum(3, 5)} and square of 2 = ${square(2)}`;
