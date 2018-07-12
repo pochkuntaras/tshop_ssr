@@ -8,3 +8,8 @@ It's preferable that you'll use [NVM](https://github.com/creationix/nvm) for man
 npm install
 ```
 
+## Running Dev Server
+
+```
+npm run start:dev
+```
