@@ -1,5 +1,10 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom';
 import Hello from './Hello'
+import App from './App';
+import CashVoutcher from './CashVoucher';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(
+    <App><Hello /></App>,
+    document.getElementById('root')
+);
