@@ -1,7 +1,14 @@
 const path = require('path');
+const webpack = require('webpack');
+var root = path.join(process.cwd(), 'src');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: [
+    'react-hot-loader/patch',
+    'webpack-dev-server/client?http://localhost:3005',
+    'webpack/hot/only-dev-server',
+    './src/index.js'
+  ],
   output: {
     filename: 'main.js',
     publicPath: '/',
@@ -18,5 +25,8 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   mode: 'none'
 };
