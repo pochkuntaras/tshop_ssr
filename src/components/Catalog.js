@@ -5,7 +5,7 @@ import { map } from 'lodash';
 
 const Catalog = ({ products }) => (
   <div>
-    {map(products, (product) => (<ProductCard {...product} />))}
+    {map(products, (product) => <ProductCard key={product.id} {...product} />)}
   </div>
 );
 
