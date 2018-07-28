@@ -1,4 +1,4 @@
-# TShop Application
+# TShop SSR Application
 
 ## Installation
 

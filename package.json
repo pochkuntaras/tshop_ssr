@@ -1,5 +1,5 @@
 {
-  "name": "tshop",
+  "name": "tshop_ssr",
   "version": "1.0.0",
   "description": "## Installation",
   "private": true,
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pochkuntaras/tshop.git"
+    "url": "git+https://github.com/pochkuntaras/tshop_ssr.git"
   },
   "author": "Taras Pochkun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pochkuntaras/tshop/issues"
+    "url": "https://github.com/pochkuntaras/tshop_ssr/issues"
   },
-  "homepage": "https://github.com/pochkuntaras/tshop#readme",
+  "homepage": "https://github.com/pochkuntaras/tshop_ssr#readme",
   "devDependencies": {
     "babel-loader": "^7.1.5",
     "css-loader": "^1.0.0",
@@ -38,6 +38,8 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3",
     "lodash": "^4.17.10",
     "normalize.css": "^8.0.0",
     "react": "^16.4.1",
